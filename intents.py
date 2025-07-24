@@ -1,0 +1,4 @@
+INTENTS = [
+    "GUILD_MESSAGES",
+    "MESSAGE_CONTENT"
+]

@@ -1,0 +1,80 @@
+{
+  "intents": {
+    "GUILDS": {
+      "value": 1,
+      "description": "ギルドの基本情報の更新（サーバーの作成・削除・更新など）"
+    },
+    "GUILD_MEMBERS": {
+      "value": 2,
+      "description": "ギルドメンバーの参加・退出・更新イベント"
+    },
+    "GUILD_BANS": {
+      "value": 4,
+      "description": "ギルドのBAN・アンBANイベント"
+    },
+    "GUILD_EMOJIS_AND_STICKERS": {
+      "value": 8,
+      "description": "ギルドの絵文字やステッカーの更新"
+    },
+    "GUILD_INTEGRATIONS": {
+      "value": 16,
+      "description": "ギルドのインテグレーション更新"
+    },
+    "GUILD_WEBHOOKS": {
+      "value": 32,
+      "description": "ギルドのWebhook更新"
+    },
+    "GUILD_INVITES": {
+      "value": 64,
+      "description": "ギルドの招待作成・削除"
+    },
+    "GUILD_VOICE_STATES": {
+      "value": 128,
+      "description": "ボイスチャットの状態変化"
+    },
+    "GUILD_PRESENCES": {
+      "value": 256,
+      "description": "ギルドメンバーのプレゼンス（オンライン状態）"
+    },
+    "GUILD_MESSAGES": {
+      "value": 512,
+      "description": "ギルド内のメッセージ受信（テキストチャット）"
+    },
+    "GUILD_MESSAGE_REACTIONS": {
+      "value": 1024,
+      "description": "メッセージへのリアクション追加・削除"
+    },
+    "GUILD_MESSAGE_TYPING": {
+      "value": 2048,
+      "description": "メッセージの入力通知"
+    },
+    "DIRECT_MESSAGES": {
+      "value": 4096,
+      "description": "DMのメッセージ受信"
+    },
+    "DIRECT_MESSAGE_REACTIONS": {
+      "value": 8192,
+      "description": "DMメッセージへのリアクション"
+    },
+    "DIRECT_MESSAGE_TYPING": {
+      "value": 16384,
+      "description": "DMでのメッセージ入力通知"
+    },
+    "MESSAGE_CONTENT": {
+      "value": 32768,
+      "description": "メッセージの内容（content）を取得可能にする"
+    },
+    "GUILD_SCHEDULED_EVENTS": {
+      "value": 65536,
+      "description": "ギルドのスケジュールイベント関連"
+    },
+    "AUTO_MODERATION_CONFIGURATION": {
+      "value": 1048576,
+      "description": "自動モデレーションの設定"
+    },
+    "AUTO_MODERATION_EXECUTION": {
+      "value": 2097152,
+      "description": "自動モデレーションの実行"
+    }
+  }
+}
